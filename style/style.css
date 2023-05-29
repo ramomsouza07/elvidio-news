@@ -9,12 +9,12 @@
 }
 
 :root{
-    --cor0:#ffd7b6;
-    --cor1:#ff8080;
-    --cor2:#b38f8f;
-    --cor3:#806666;
-    --cor4:#944a4a;
-    --cor5:#663333;
+    --cor0:#ABEDD8;
+    --cor1:#8CD3AD;
+    --cor2:#73BA94;
+    --cor3:#5AA17B;
+    --cor4:#418862;
+    --cor5:#286F49;
 
 
     --font-padrao: Arial, Verdana, Helvetica, sans-serif;
@@ -128,7 +128,6 @@ main strong{
 }
 
 main a{
-    background-color: var(--cor1);
     text-decoration: none;
     color: var(--cor5);
     font-weight: bold;
@@ -177,6 +176,26 @@ div.video > iframe{
     left: 5%;
     width: 90%;
     height: 90%;
+}
+
+div#conteiner{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+div#conteiner > a img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+    box-sizing: border-box;
+}
+
+div#conteiner > a img:hover{
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    transition: transform 0.5s;
 }
 
 aside{
