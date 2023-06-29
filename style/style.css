@@ -149,6 +149,13 @@ main img.pequena{
     margin: auto;
 
 }
+div img.buraco{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
 div.mapa{
     margin: 0px -20px 30px;
     padding: 20px;
